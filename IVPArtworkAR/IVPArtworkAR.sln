@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IVPArtworkAR", "IVPArtworkAR.csproj", "{121291E1-0193-DBB6-C952-FE04E9DB7E20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IVPArtworkAR.Editor", "IVPArtworkAR.Editor.csproj", "{E4F2589E-9044-39E5-696C-C09754BE06F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{121291E1-0193-DBB6-C952-FE04E9DB7E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121291E1-0193-DBB6-C952-FE04E9DB7E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121291E1-0193-DBB6-C952-FE04E9DB7E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121291E1-0193-DBB6-C952-FE04E9DB7E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F2589E-9044-39E5-696C-C09754BE06F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F2589E-9044-39E5-696C-C09754BE06F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F2589E-9044-39E5-696C-C09754BE06F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F2589E-9044-39E5-696C-C09754BE06F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
