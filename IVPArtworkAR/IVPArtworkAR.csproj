@@ -731,6 +731,7 @@
     <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />
     <None Include="Assets\LeanTouch\Examples\Shaders\Skybox.shader" />
     <None Include="Assets\LeanTouch\Examples\Shaders\Smooth.shader" />
+    <None Include="Assets\Materials\ShadowShader.shader" />
     <None Include="Assets\MultiAR\CoreScripts\Shaders\CursorShader.shader" />
     <None Include="Assets\MultiAR\CoreScripts\Shaders\PlaneGridShader.shader" />
     <None Include="Assets\MultiAR\CoreScripts\Shaders\PointCloudShader.shader" />
@@ -783,11 +784,14 @@
     <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
     <None Include="Assets\SamplesResources\CloudReco\Shaders\CR_Custom_TransparentUnlit.shader" />
     <None Include="Assets\SamplesResources\VirtualButtons\Shaders\Gradient.shader" />
+    <None Include="Assets\Shaders\beige.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\IVPArtwork.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
+    <None Include="Assets\TSF\Shaders\TSF.shader" />
+    <None Include="Assets\TSF\Shaders\TSFOutline.shader" />
     <None Include="Assets\UnityARKitPlugin\ARKitRemote\ARKITREMOTE.txt" />
     <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\InstancedSurfaceShader.shader" />
     <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\MobileARShadow.shader" />
