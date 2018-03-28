@@ -342,6 +342,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_MK\MKGlowFree\MKGlowFree.cs" />
     <Compile Include="Assets\Common\CameraSettings.cs" />
     <Compile Include="Assets\Common\FrameRateSettings.cs" />
     <Compile Include="Assets\Common\InitErrorHandler.cs" />
@@ -524,6 +525,11 @@
     <Compile Include="Assets\LeanTouch\Scripts\LeanSelectable.cs" />
     <Compile Include="Assets\LeanTouch\Scripts\LeanSnapshot.cs" />
     <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
+    <Compile Include="Assets\MaterializationFX\Scripts\MfxController.cs" />
+    <Compile Include="Assets\MaterializationFX\Scripts\ShaderParameterSetter.cs" />
+    <Compile Include="Assets\MaterializationFX\Scripts\Utils\DemoInputConrtoller.cs" />
+    <Compile Include="Assets\MaterializationFX\Scripts\Utils\DemoPrefabController.cs" />
+    <Compile Include="Assets\MaterializationFX\Scripts\Utils\MouseOrbitController.cs" />
     <Compile Include="Assets\MultiAR\CoreScripts\ARCoreInteface.cs" />
     <Compile Include="Assets\MultiAR\CoreScripts\ARKitInteface.cs" />
     <Compile Include="Assets\MultiAR\CoreScripts\ARPlatformInterface.cs" />
@@ -559,6 +565,8 @@
     <Compile Include="Assets\MultiAR\DemoScenes\VisualizerDemo\Scripts\StandaloneSceneLoader.cs" />
     <Compile Include="Assets\MultiAR\DemoScenes\VisualizerDemo\Scripts\Tools\FileUtils.cs" />
     <Compile Include="Assets\MultiAR\DemoScenes\VisualizerDemo\Scripts\Tools\GeoUtils.cs" />
+    <Compile Include="Assets\Orb\Example\ExampleOscillator.cs" />
+    <Compile Include="Assets\Orb\Orb.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -731,6 +739,9 @@
     <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />
     <None Include="Assets\LeanTouch\Examples\Shaders\Skybox.shader" />
     <None Include="Assets\LeanTouch\Examples\Shaders\Smooth.shader" />
+    <None Include="Assets\MaterializationFX\Readme.txt" />
+    <None Include="Assets\MaterializationFX\Shaders\MFX_SingleAlbedo.shader" />
+    <None Include="Assets\MaterializationFX\Shaders\MFX_TwoAlbedo.shader" />
     <None Include="Assets\Materials\ShadowShader.shader" />
     <None Include="Assets\MultiAR\CoreScripts\Shaders\CursorShader.shader" />
     <None Include="Assets\MultiAR\CoreScripts\Shaders\PlaneGridShader.shader" />
@@ -741,6 +752,9 @@
     <None Include="Assets\MultiAR\DemoScenes\AnchoringDemo\Materials\CubeWireframe.shader" />
     <None Include="Assets\MultiAR\DemoScenes\OcclusionDemo\Attribution.txt" />
     <None Include="Assets\MultiAR\_Readme\License.txt" />
+    <None Include="Assets\Orb\OrbNoise.cginc" />
+    <None Include="Assets\Orb\OrbShader.shader" />
+    <None Include="Assets\Orb\Readme.txt" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
@@ -792,6 +806,7 @@
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
     <None Include="Assets\TSF\Shaders\TSF.shader" />
     <None Include="Assets\TSF\Shaders\TSFOutline.shader" />
+    <None Include="Assets\Ultra Emissive Particles Shader\Shaders\ParticleEmmissive.shader" />
     <None Include="Assets\UnityARKitPlugin\ARKitRemote\ARKITREMOTE.txt" />
     <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\InstancedSurfaceShader.shader" />
     <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\MobileARShadow.shader" />
@@ -808,6 +823,38 @@
     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Render\MKGlowBlur.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Render\MKGlowBlurInc.cginc" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Render\MKGlowComposite.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Render\MKGlowCompositeInc.cginc" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Render\MKGlowSelectiveRender.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Cutout\MK_Cutout-Diffuse.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Cutout\MK_Cutout-DiffuseBumpSpec.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Cutout\MK_Cutout-DiffuseBumped.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Cutout\MK_Cutout-Glossy.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Illumin\MK_Illumin-Diffuse.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Illumin\MK_Illumin-DiffuseBumpSpec.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Illumin\MK_Illumin-DiffuseBumped.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Illumin\MK_Illumin-Glossy.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Normal\MK_Normal-Diffuse.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Normal\MK_Normal-DiffuseBumpSpec.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Normal\MK_Normal-DiffuseBumped.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Normal\MK_Normal-Glossy.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Other\MK_Illumin-Diffuse.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Other\MK_Mobile-Diffuse.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Other\MK_Unlit-Normal.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Particle\MK_Particle Add.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Particle\MK_Particle AddMultiply.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Particle\MK_Particle Alpha Blend.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Particle\MK_Particle Multiply.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Sprites\MK_Sprite-Default.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Sprites\MK_Sprite-Diffuse.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Sprites\MK_UnitySprites.cginc" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Transparent\MK_Transparent-Diffuse.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Transparent\MK_Transparent-DiffuseBumpSpec.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Transparent\MK_Transparent-DiffuseBumped.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\Transparent\MK_Transparent-Glossy.shader" />
+    <None Include="Assets\_MK\MKGlowFree\Shader\Variants_SelectiveMode\UI\MK_UI_Default.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

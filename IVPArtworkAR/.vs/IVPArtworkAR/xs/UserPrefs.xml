@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{121291E1-0193-DBB6-C952-FE04E9DB7E20}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TSF/Shaders/TSFOutline.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_MK/MKGlowFree/Editor/MKGlowFreeEditor.cs">
     <Files>
       <File FileName="Assets/Shaders/beige.shader" Line="1" Column="1" />
       <File FileName="Assets/TSF/Shaders/TSFOutline.shader" Line="1" Column="1" />
+      <File FileName="Assets/_MK/MKGlowFree/Editor/MKGlowFreeEditor.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
