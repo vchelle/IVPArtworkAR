@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/IVPArtworkAR.unity
+    guid: 3e9f74f540d57496d9fe2aa03b9ee4c8
