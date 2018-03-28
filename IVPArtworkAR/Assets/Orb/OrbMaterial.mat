@@ -7,8 +7,8 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: OrbMaterial
-  m_Shader: {fileID: 4800000, guid: f24957adcfcfeea43949e84b3279c3ba, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: 6ee2771254de1bc41bf1c63da530b5a2, type: 3}
+  m_ShaderKeywords: _INVERT_ON
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -17,16 +17,101 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurnAnimationOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurnTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurntEmissionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurntNormals:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurntTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTexture:
+        m_Texture: {fileID: 2800000, guid: 2414bc883a79ecf4a966d1740067d34f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlowDistributionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaTestCutoff: 0.5
     - _Amount: 10
     - _Amplitude: 0.3
+    - _BurnEmissionDistribution: 8
+    - _BurnSize: 8
     - _Core: 0.5
+    - _Cutoff: 0
+    - _Dissolve: 0
+    - _DissolveDistance: 0
+    - _DissolveDistribution: 0
+    - _GlowDistance: 0.1
+    - _GlowDistribution: 0
     - _GlowThickness: 0.5
+    - _Invert: 1
+    - _Metallic: 0
+    - _MirrorMode: 0
+    - _NormalsMix: 1
+    - _Position: 0.5
+    - _PositionType: 0
+    - _ScaleDissolveTex: 1
+    - _ScaleGlowTex: 1
+    - _Smoothness: 0
+    - _Smothness: 0
+    - __dirty: 1
     m_Colors:
+    - _AlbedoColor: {r: 0, g: 0, b: 0, a: 0}
     - _Animation: {r: 0, g: -3, b: 0.5, a: 0}
+    - _BurnColor: {r: 0, g: 0, b: 0, a: 0}
+    - _BurntAlbedoColor: {r: 0, g: 0, b: 0, a: 0}
+    - _BurntEmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Direction: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolveColor: {r: 0.18382353, g: 0.8311357, b: 1, a: 0}
+    - _DissolveSpeed: {r: 0.19, g: 0, b: 0, a: 0}
     - _EdgeColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _GlowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowDistributionColor: {r: 0.19117647, g: 1, b: 0.36409733, a: 0}
+    - _GlowSpeed: {r: 0.19, g: 0, b: 0, a: 0}
     - _NoiseColor: {r: 0, g: 0, b: 0, a: 1}
